@@ -2,12 +2,12 @@ import React from 'react'
 import MainLayout from '../layout/MainLayout'
 
 const HomePage = () => {
-  return (<h2>This is home Page</h2>
-    // <MainLayout>
-    //     <div className="homepage-content">
-    //         <h2>This is home Page</h2>
-    //     </div>
-    // </MainLayout>
+  return (
+    <MainLayout>
+        <div className="homepage-content">
+            <h2>This is home Page</h2>
+        </div>
+    </MainLayout>
   )
 }
 
